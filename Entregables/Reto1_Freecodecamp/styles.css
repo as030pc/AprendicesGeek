@@ -1,0 +1,55 @@
+#main {
+    font-family: Verdana;
+    text-align: center;
+    background-color: hsl(113, 22%, 58%);
+
+}
+
+.colorDiv {
+    background-color: bisque;
+    font-family: Verdana;
+    font-size:large
+    text-align: center;
+    
+}
+#image-div {
+
+    padding: 10px; 
+    margin: 2;
+    font-family: Verdana;
+    font-size: 10px;
+    text-align: center;
+  width: 450px
+   }
+
+
+
+img {display: block;
+margin:0 auto;
+max-width: 450px;
+  height: auto;
+
+
+
+
+}
+
+#tribute-info {
+    font-family: Verdana;
+    font-size: medium;
+    text-align: justify;
+}
+
+#imagen-caption {
+    text-align: center;
+    
+    
+}
+#tribute-link {
+    font-family: Verdana;
+    font-size: medium;
+}
+
+
+
+   
