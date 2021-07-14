@@ -4,9 +4,9 @@
 <u> subrayado
 
 Para agregar una carpeta y archivo con estilos
-<link rel="stylesheet" href="./styles/style.css">
+``` <link rel="stylesheet" href="./styles/style.css"> ```
 
 
 Alinear una imagen
 
-<div align="center"><img src="logo.gif"></div>
+``` <div align="center"><img src="logo.gif"></div> ```
