@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <head>
+
+    </head>
+
+    <main>
+        <b><h1 id="title">Biotecnologia en Colombia</h1></b>
+        <p id="description">Esto es un formulario con el que se quiere recopilar informacion sobre el conocimiento que
+            tiene sobre Biotecnologia
+            <br>
+            
+        </p>
+
+        <div id="imagen">
+            <img align="right"src="https://storage.contextoganadero.com/s3fs-public/styles/noticias_one/public/ganaderia/field_image/2021-01/biotecnologia-ganadera.jpg?itok=dcYLgSIj" alt="">
+        </div>
+
+        
+        
+        <form action="" id="survey-form">
+        
+            <label for="" id="name-label">Nombre</label>
+            <input type="text" id="name" placeholder="Ingrese su nombre" required>
+            <label for="" id="email-label">Correo</label>
+            <input type="email" id="email" placeholder="Ingrese su email" required>
+            <label for="" id="number-label">Edad</label>
+            <input type="number" id="number" min="0" max="150" placeholder="Ingrese su edad" >
+            <br>
+            <div id="Pregunta1">
+                <label for="pregunta1" id="Pregunta1"> Conoce los temas sobre biotecnologia?</label>
+                <select name="" id="dropdown">
+                    <option value="si" > Si </option>
+                    <option value="no"> No </option>
+                </select>
+            </div>
+            
+            <br>
+            <div id="Pregunta2">
+                <label name="escolaridad" id="escolaridad"> Nivel de escolaridad</label>
+                <input type="radio" name="escolaridad" value="Pregrado"> Pregrado
+                <input type="radio" name="escolaridad" value="Tecnologia"> Tecnologo
+                <input type="radio" name="escolaridad" value="Tecnica"> Tecnica
+                <input type="radio" name="escolaridad" value="Bachillerato"> Bachillerato
+            </div>
+
+            <br>
+            <div id="Pregunta3">
+                <label for="" id="conocimiento"> ¿Que conceptos le parecen familiares? </label>
+                <br>
+                <input type="checkbox" name="" id="" value = "Fermentacion"> Fermentacion
+                <br>
+                <input type="checkbox" name="" id="" value = "Microbiologia"> Microbiologia
+                <br>
+                <input type="checkbox" name="" id="" value = "Bioprospeccion"> Bioprospeccion
+                <br>
+                <input type="checkbox" name="" id="" value = "Bioproducto"> Bioproducto
+
+
+            </div>
+            <br>
+            <div id="Pregunta4">
+                <label for="" id="otros"> Si conoce algun tema adicional, nos puedes comentar </label>
+                <div id="cuadro">
+                    <textarea name="otros" id="otros" cols="100" rows="10"> </textarea>
+                </div>
+ 
+                
+            </div>
+            <br>
+            <div id="Pregunta5">
+                <button type="submit" id="submit" > Enviar</button>
+            </div>
+        </form>
+    </main>
+    <footer id= "pie-pagina">
+        <p> Formulario creado por Andres Palma (2021)</p>
+    </footer>
+</body>
+
+</html>

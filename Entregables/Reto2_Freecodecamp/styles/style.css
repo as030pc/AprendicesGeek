@@ -1,0 +1,76 @@
+#title {
+    background-color: aquamarine;
+    margin-left: 25;
+    margin-right: 25;
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+    border: 25px;
+}
+
+#description {
+    padding: 30px 30px 30px 30px;
+    margin: 20px 20px 20px 20px;
+    border:10px 10px 10px 10px;
+    background-color: bisque;
+    background-size: cover;
+    font-size: 20px;
+    text-align: center;
+    
+    font-family: 'Otomanopee One', sans-serif;
+
+}
+
+
+#survey-form {
+    margin: 10;
+    font-size: 20px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://res.cloudinary.com/dte7upwcr/image/upload/blog/blog2/como-hacer-una-encuesta-en-google-forms/como-hacer-una-encuesta-en-google-forms-img_header.jpg');
+}
+ 
+
+body {
+    margin:50px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+#submit {
+    font-family: 'Otomanopee One', sans-serif;
+
+}
+
+#number {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+#name {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+#email {
+    
+        font-family: 'Otomanopee One', sans-serif;
+
+
+}
+#Pregunta4 {
+    padding: 50;
+    border:50;
+    margin:50;
+    text-align: center;
+}
+
+#pie-pagina {
+    text-align: right;
+    font-size: 10px;
+}
+
+#imagen {
+    padding: 30px 30px 30px 30px;
+    margin: 20px 20px 20px 20px;
+    border:10px 10px 10px 10px;
+
+}
