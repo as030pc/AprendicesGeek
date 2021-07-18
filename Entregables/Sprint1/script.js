@@ -21,10 +21,21 @@
         else {
             totalCompra = totalSinDescuento;
             document.getElementById('alerta').value = "El cliente no recibe descuento"
+            let alerta = "El cliente no recibe descuento"
         }
         document.getElementById('valor-compra').value = totalSinDescuento
         document.getElementById('valor-descuento').value = totalSinDescuento-totalCompra
         document.getElementById('total').value = totalCompra
+        localStorage.setItem('Alerta',alerta)
+        
 
     }
+
+    function listar() {
+
+        let alerta1 = localStorage.getItem('Alerta')
+        listar.innerHTML = `<p> ${alerta1}</p>` 
+    }
+   
+    
     
