@@ -5,14 +5,7 @@
     padding: 0;
   }
   
-  #cuerpo {
-    font-size: 18px;
-    font-family: Tahoma;
-    color:rebeccapurple;
-    background: mediumpurple;
-    
-
-  }
+ 
   
   #fondo{
   background: url(../Imagenes/ballena1.jpg);
@@ -150,6 +143,15 @@
     padding: 5px 10px;
   }
 
+
+  #cuerpo {
+    font-size: 18px;
+    font-family: Tahoma;
+    color:rebeccapurple;
+    background: mediumpurple;
+    
+
+  }
  
 
 
