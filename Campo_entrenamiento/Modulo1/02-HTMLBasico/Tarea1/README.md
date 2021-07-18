@@ -9,3 +9,7 @@ una etiqueta para las celdas <td>
 
 Para centrar imagen
 <div align="center"><img src="fondosolvetic.png"></div>
+
+
+
+color de letra
