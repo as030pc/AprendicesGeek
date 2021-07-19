@@ -1,0 +1,32 @@
+body:hover {
+    background-color: antiquewhite;
+
+}
+h1:active {
+    background-color: aqua;
+}
+
+input:required {
+    border: 2px solid red;
+}
+
+.parrafo2::first-line {
+    color: red;
+    font-size: 30px;
+    
+}
+
+.titulo1:hover {
+    background-color: aquamarine;
+}
+
+.parrafo2::before {
+    content: ".... Este es otro ejemplo de pseudoelemento";
+    color:brown;
+  }
+
+  .titulo2::before {
+      content: ".... Esto es un ejemplo de pseudoelemento";
+      color:red;
+      font-size: 10px;
+  }
