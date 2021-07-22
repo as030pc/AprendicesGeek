@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
+
+    <div id = "division">
     <h1>
         Ejericicio del palindromo
     </h1>
+    <p>La palabra palíndromo viene del griego: palin dromein, volver a ir hacia atrás. Un palindromo es una palabra o frase que se lee igual de izquierda a derecha que de derecha a izquierda </p>
 
-    <label for=""> Ingrese el valor que desea verificar </label>
-    <input id = "palindromo" type="text">
-    <button id="boton"> revisar </button>
+    <h2> Comprobador de palindromos en linea </h2>
+    <p> Este comprobador permite verificar si una cadena de texto alfanumerico es un palindromo o no, recuerde que puede usar caracteres especiales e igual el programa funcionara, sin embargo solo se comprueba si el texto alfanumerico es palndromo</p>
+    <label for="" class="entrada">Ingrese un valor a evaluar</label>
+    <input type="text" id="entrada">
+    <button type="submit" id="Boton" onclick=calcular()>Enviar </button>
+</div>
     <script src="script.js"></script>
-    <input type="text" id="salida">
+
 </body>
 </html>
