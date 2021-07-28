@@ -63,10 +63,10 @@ const loadImage = data => {
 
 
 //FORMULARIO
-form.addEventListener('submit',function LocalStorage(){
+form.addEventListener('',function LocalStorage(){
            
-    //captura de datos y almacenamiento en variables
-    let inputName = document.querySelector('#inputName').value;
+    
+    let nombre = document.querySelector('#inputName').value;
     let email = document.querySelector('#email').value;
     let gender = document.querySelector('#gender').value
     let message = document.querySelector('#msm').value;

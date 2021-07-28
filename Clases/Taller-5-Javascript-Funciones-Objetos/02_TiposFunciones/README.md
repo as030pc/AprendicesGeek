@@ -1,0 +1,1 @@
+DOM document.addEventListener('DOMContentLoaded',listarData)

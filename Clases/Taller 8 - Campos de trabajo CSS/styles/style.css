@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+.description {
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease .3s;
+}
+
+.description:hover {
+    height:80px;
+}
+
+header{
+    z-index:100;
+}

@@ -6,3 +6,6 @@ getElementById --> no se usa #
 en el boton no se usa () para la funcion
 
 preventDefault -->  Prevenir eventos
+
+
+document.addEventListener('DOMContentLoaded',listarData)
