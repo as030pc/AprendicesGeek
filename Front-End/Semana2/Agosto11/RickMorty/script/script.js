@@ -21,9 +21,11 @@ function showPersonaje(personaje) {
     main.innerHTML = ''
 
     personaje.map((personaje) => {
-        const {name, image, species, status, location } = personaje;
+        const {name, image, species, location, status, origin } = personaje;
+        let name1 = location.name;
+        let name2 = origin.name;
         
-        
+      
         
         const personaje1 = document.createElement('div')
     
@@ -32,12 +34,11 @@ function showPersonaje(personaje) {
                 <img src=${image} alt="">
                 <h1>${name}</h1>
                 <br>
-                <h4>${status}</h4> <h4>${species}</h4>
-                
-            const{nameLocate} = location
-                <p> ${location}</p>
+                <h4> Status: ${status}</h4> <h4>${species}</h4>
+                <p>Origin ${name2}</p>
                 <br>
-                <p> ${origin}</p>
+                <p> Location :${name1}</p>
+                
             </div>
 
 
