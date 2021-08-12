@@ -20,3 +20,16 @@
     font-size: 100px;
 }
 
+
+#carousel img {
+    object-fit: cover;
+}
+
+@supports(object-fit: cover){
+    #carousel img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+
