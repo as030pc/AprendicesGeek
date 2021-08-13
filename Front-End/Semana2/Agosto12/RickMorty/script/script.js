@@ -33,10 +33,8 @@ function showPersonaje(personaje) {
             <div id = 'tarjeta'>
                 <img src=${image} alt="">
                 <h1>${name}</h1>
-                <br>
-                <h4> Status: ${status}</h4> <h4>${species}</h4>
-                <p>Origin ${name2}</p>
-                <br>
+                <p> Status: ${status}</p> <p> Species: ${species}</p>
+                <p>Origin: ${name2}</p>
                 <p> Location :${name1}</p>
                 
             </div>
