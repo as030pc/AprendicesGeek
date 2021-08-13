@@ -36,3 +36,15 @@
     background-color: brown;
     color: beige;
 }
+
+
+#medidor meter{
+    width: 200px;
+    height: 40px;
+    
+}
+
+#escala {
+    display:inline-flex;
+
+}
