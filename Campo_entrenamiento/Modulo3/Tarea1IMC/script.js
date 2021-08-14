@@ -44,7 +44,8 @@ const calcularIMC = (estatura, peso, sexo, edad) => {
     } 
     mostrar()
     creacionRegistro(sexo, edad, peso, estatura, imc, estadoPersona)
-    guardarLocalStorage();
+    //guardarLocalStorage();
+    localStorage.setItem('datos', JSON.stringify(arreglo))
 
     //estado.innerHTML = `<p> El indice de masa corporal del usuario es ${imc.toFixed(2)} <br> Su estado de salud es ${estadoPersona}</p>`
 
@@ -76,10 +77,8 @@ const creacionRegistro = (sexo, edad, peso, estatura, imc, estado) => {
 
 }
 
-const guardarLocalStorage = () => {
-    localStorage.setItem('datos', JSON.stringify(arreglo))
+const obtenerLocalStorage = () => {
     let datosEstadistica = localStorage.getItem("datos");
-    
     //console.log(datosEstadistica)
     let obj = JSON.parse(datosEstadistica);
     //console.log(obj)
