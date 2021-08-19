@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Formulario sobre la Biotecnologia en Colombia </title>
+</head>
+
+<body>
+
+    <head>
+
+    </head>
+
+    <main id="principal">
+
+        <b>
+            <h1 id="title">Biotecnologia en Colombia</h1>
+        </b>
+
+        <div id="introduccion">
+            <div id="subtitulo">
+                <h3> Que es la biotecnologia </h3> <br>
+                <p> La biotecnología utiliza células vivas para desarrollar o manipular productos con fines específicos,
+                    como por ejemplo los alimentos transgénicos. La biotecnología está así vinculada con la ingeniería
+                    genética y surgió como disciplina a principios del siglo XX en la industria alimentaria, a la que
+                    después se sumaron otros sectores como la medicina o el medio ambiente.</p>
+                <p>
+                    Hoy, las cinco ramas en las que se divide la biotecnología moderna —humana, ambiental, industrial,
+                    animal y vegetal— nos ayudan a combatir el hambre y las enfermedades, producir de forma más segura,
+                    limpia y eficiente, reducir nuestra huella ecológica y ahorrar energía. Todo ello ha entusiasmado a
+                    mercados bursátiles como Wall Street, donde la biotecnología fue uno de los sectores más rentables
+                    del índice NASDAQ Composite en 2019.
+
+
+                </p>
+            </div>
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div id="imagen" class="carousel-item active">
+                        <img class="d-block w-100"
+                            src="http://sinavef.senasica.gob.mx/CNRF/AreaDiagnostico/NotasCarrusel/Imagenes/nota5_Figura1.jpg"
+                            alt="">
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.istockphoto.com/vectors/leaf-carousels-and-chemistry-lab-icons-set-world-money-methodology-vector-id1215016180"
+                            class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.istockphoto.com/vectors/leaf-carousels-and-chemistry-lab-icons-set-world-money-methodology-vector-id1187802031"
+                            alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+        <form class="row g-3" id="survey-form">
+
+            <div id="intro-survey">
+                <h3> Formulario sobre los conocimientos basicos de Biotecnologia en Colombia</h3>
+                <p> Este formulario esta orientada en la recopilacion de informacion sobre los conocimientos basicos que
+                    tienen los usuarios de la pagina sobre la biotecnologia</p>
+            </div>
+
+            <div class="md-3">
+              <label id="name-label" for="validationDefault01" class="form-label"> Nombre </label>
+              <input type="text" id="name" placeholder="Ingrese su nombre" type="text" class="form-control" id="validationDefault01" required>
+            </div> <br>
+
+            <div class="md-3">
+              <label id="email-label" for="validationDefaultUsername" class="form-label"> Email </label>
+              <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                <input id="email" placeholder="Ingrese su email" type="email" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+              </div>
+            </div> <br>
+            <div class="md-3 edad">
+              <label id="number-label" for="validationDefault03" class="form-label"> Edad </label>
+              <input type="number" id="number" min="0" max="150" placeholder="Ingrese su edad" class="form-control" id="validationDefault03" required>
+            </div> <br>
+            <div class="md-3 edad">
+              <label for="validationDefault04" class="form-label"> Conoces los temas sobre Biotecnologia? </label>
+              <select class="form-select" id="validationDefault04" required>
+                <option>Si</option>
+                <option>No</option>
+              </select>
+            </div>
+           
+            <div class="col-12">
+              <div class="form-check">
+                <label class="form-check-label" for="invalidCheck2">
+                  Que conceptos te parecen familiares?
+                </label>
+                <br>
+                <input type="checkbox" name="" id="" value="Fermentacion"> Fermentacion
+                <br>
+                <input type="checkbox" name="" id="" value="Microbiologia"> Microbiologia
+                <br>
+                <input type="checkbox" name="" id="" value="Bioprospeccion"> Bioprospeccion
+                <br>
+                <input type="checkbox" name="" id="" value="Bioproducto"> Bioproducto
+              </div>
+            </div>
+            <div class="mb-3">
+                <label for="validationTextarea" class="form-label"> Si conoces algun otro tema de Biotecnologia puedes mencionarlo</label>
+                <textarea class="form-control " id="validationTextarea" required></textarea>
+
+              </div>
+            
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit"> Enviar </button>
+            </div>
+          </form>
+    </main>
+
+    <footer id="pie-pagina">
+        <p> Formulario creado por Andres Palma (2021)</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
