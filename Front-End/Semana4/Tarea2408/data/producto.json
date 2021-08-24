@@ -1,0 +1,62 @@
+{
+  "productos": [
+    {
+      "Producto": "Bicicleta eléctrica",
+      "Garantia": "6 Meses",
+      "Rin": "27 inch",
+      "Material": "Fibra de carbono",
+      "imagen": "https://autobild.com.mx/wp-content/uploads/2020/06/rimac-bici-de-montana.jpg",
+      "id": 1,
+      "color": "Negra",
+      "Referencia": "0001"
+    },
+    {
+      "Producto": "Bicicleta Elite focus",
+      "Garantia": "6 Meses",
+      "Rin": "29 inch",
+      "Material": "Fibra de carbono",
+      "imagen": "https://www.classbike.co/wp-content/uploads/2020/08/ELITE-FOCUS-8V.png",
+      "id": 2,
+      "color": "Azul",
+      "Referencia": "0002"
+    },
+    {
+      "Producto": "Bicicle WRC",
+      "Garantia": "12 Meses",
+      "Rin": "29 inch",
+      "Material": "Aluminio",
+      "imagen": "https://tuvalum.com/blog/wp-content/uploads/2017/01/4-1.jpg",
+      "id": 3,
+      "color": "Blanca",
+      "Referencia": "0003"
+    },
+    {
+      "Producto": "Bicicleta BMX GW ÉLITE G1",
+      "Garantia": "6 Meses",
+      "Rin": "20 inch",
+      "Material": "Aluminio",
+      "imagen": "https://www.zonagw.com/wp-content/uploads/2019/10/bicicleta-para-bmx-gw-%C3%A9lite-g1-Expert-1.jpg",
+      "id": 4,
+      "color": "Naranja",
+      "Referencia": "0004"
+    },
+    {
+      "Producto": "",
+      "Garantia": "aa",
+      "Rin": "aaa",
+      "Material": "a",
+      "color": "aaaaa",
+      "Referencia": "aa",
+      "id": 5
+    },
+    {
+      "Producto": "",
+      "Garantia": "aa",
+      "Rin": "aaa",
+      "Material": "a",
+      "color": "aaaaa",
+      "Referencia": "a",
+      "id": 6
+    }
+  ]
+}
