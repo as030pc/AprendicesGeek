@@ -39,24 +39,6 @@
       "id": 4,
       "color": "Naranja",
       "Referencia": "0004"
-    },
-    {
-      "Producto": "",
-      "Garantia": "aa",
-      "Rin": "aaa",
-      "Material": "a",
-      "color": "aaaaa",
-      "Referencia": "aa",
-      "id": 5
-    },
-    {
-      "Producto": "",
-      "Garantia": "aa",
-      "Rin": "aaa",
-      "Material": "a",
-      "color": "aaaaa",
-      "Referencia": "a",
-      "id": 6
     }
   ]
 }

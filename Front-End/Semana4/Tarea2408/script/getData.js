@@ -67,7 +67,7 @@ btnFiltroFibra.addEventListener('click', async () => {
     mostrarProducto.innerHTML = "";
     const resp = await fetch("http://localhost:4003/productos");
     const data = await resp.json();
-    let filtro = data.filter(producto => producto.Material === "Fibra de vidrio")
+    let filtro = data.filter(producto => producto.Material === "Fibra de carbono")
     filtro.forEach(producto =>{
     const{imagen, Producto, Material, Rin} = producto;
     mostrarProducto.innerHTML += `
