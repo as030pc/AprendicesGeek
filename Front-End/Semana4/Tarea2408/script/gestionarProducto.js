@@ -56,7 +56,7 @@ buscar.addEventListener('click', async(e)=>{
 
 
 
-modificar.addEventListener('click',  async (e)=> {
+modificar.addEventListener('click',  async ()=> {
     let nombreProducto = document.getElementById("validationDefault01").value;
     let colorProducto = document.getElementById("validationDefault02").value;
     let garantia = document.getElementById("validationDefault03").value;
@@ -64,7 +64,23 @@ modificar.addEventListener('click',  async (e)=> {
     let material = document.getElementById("validationDefault05").value;
     let referenciaModif = document.getElementById("validationDefault06").value;
 
-    let resp = await fetch(`http://localhost:4003/productos/${referenciaModif}`)
+    let resp = await fetch(`http://localhost:4003/productos/${referenciaModif}`, {
+        
+    method: 'PUT',
+    body: JSON.stringify({
+        Producto: nombreProducto,
+        Garantia: garantia,
+        Rin: rin,
+        Material: material,
+        //imagen: imagen,
+        color: colorProducto,
+        Referencia: referenciaModif
+    }),
+    headers :{
+        "Content-Type": "application/json; charset=UTF-8"
+    }
+    })
+
 })
 
 
@@ -73,7 +89,8 @@ modificar.addEventListener('click',  async (e)=> {
 
 
 eliminar.addEventListener("click", async() =>{
-   let elementoBorrar = document.getElementById("id").value;
-   let resp = await fetch(`http://localhost:4003/productos/${elementoBorrar}`);
-    
-});
+   let elementoBorrar = document.getElementById("validationDefault06").value;
+   let resp = await fetch(`http://localhost:4003/productos/${elementoBorrar}`,{
+    method: 'DELETE',
+})
+})
