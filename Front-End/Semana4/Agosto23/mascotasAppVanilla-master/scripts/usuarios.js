@@ -74,6 +74,7 @@ btnEditar.addEventListener('click', async() => {
 btnEliminar.addEventListener('click', async() => {
 
     let idModificar = document.getElementById('id').value;
+    console.log(idModificar)
     let resp = await fetch(`http://localhost:4003/usuarios/${idModificar}`,{
         method: 'DELETE',
     })
