@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de aterrizaje de producto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header id="header">
+
+        <img src="https://www.centrobiotecnologia.cl/wp-content/uploads/2019/11/Usos-de-la-biotecnologia.jpg" alt=""
+            id="header-img">
+        <h1> La Biotecnologia como apuesta al futuro </h1> <br>
+
+
+        <nav id="nav-bar">
+            <ul class="menu nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true"> Inicio </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false"> Suscripción </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false">Contactenos</button>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+    <main id="principal">
+
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+                <h1>
+                    ¿Que es la biotecnologia?
+                </h1>
+                <p>
+                    La biotecnología consiste básicamente en utilizar los microorganismos así como las células vegetales
+                    y animales para producir materiales tales como alimentos, medicamentos y algunos productos químicos
+                    útiles para los seres humanos.
+                
+
+                </p>
+                <p>
+                    Cuando nuestros antepasados se percataron de que ellos mismos podían cultivar plantas y criar
+                    animales fue cuando apareció la biotecnología. La biotecnología se usa en miles de cosas que tenemos
+                    a diario a nuestro alcance. Cuando se descubrió que el jugo fermentado se puede convertir en vino,
+                    cuando se supo que la leche puede transformarse en queso o yogurt, o que la cerveza puede ser hecha
+                    fermentando soluciones de malta y lúpulo, a eso se le llama biotecnología.
+                </p>
+                <p>
+                    La biotecnología es de gran utilidad para nosotros, da lugar a la generación de nuevas variedades
+                    que se cultivan hoy en día. Está comprobado científicamente que los alimentos derivados de la
+                    biotecnología proveen mejoras en su calidad, además de que tienen un mejor sabor y son 100% sanos.
+                    Estas plantaciones tienen dos puntos muy buenos a su favor; por un lado incrementan la producción,
+                    pero también reducen la necesidad de tener que utilizar pesticidas y herbicidas químicos. Algunos
+                    productos actuales que utilizan la biotecnología son el maíz, la soya y el algodón; estos productos
+                    avalan lo antes mencionado, pues actualmente son de los que más consumen las personas.
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CMHhNjCC3KE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <video src="https://www.youtube.com/embed/CMHhNjCC3KE" id="video"></video>
+
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <h1> Formulario de suscripcion</h1>
+                <p> Para recibir mas informacion puede suscribirse a nuestra pagina</p>
+                <form class="row g-3" action="https://www.freecodecamp.com/email-submit" id="form">
+
+                    <div class="md-6">
+                      <label for="inputPassword4" class="form-label">Nombre Completo</label>
+                      <input type="text" class="form-control" id="nombre">
+                    </div>
+                    <div class="md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                      </div>
+                    <div class="md-4">
+                      <label for="inputTelefono" class="form-label"> Numero de telefono</label>
+                      <input type="number" class="form-control" id="inputAddress">
+                    </div>
+            
+                    <div class="md-4">
+                      <label for="inputCity" class="form-label">Ciudad</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="md-4">
+                      <label for="inputGenero" class="form-label">Genero</label>
+                      <select id="inputGenero" class="form-select">
+                        <option selected>Masculino</option>
+                        <option>Femenino</option>
+                      </select>
+                    </div>
+                    
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Estoy de acuerdo con el tratamiento de los datos
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary"> Suscribirse</button>
+                    </div>
+                  </form>
+            </div>
+
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <h1> Contactenos</h1>
+                <p>Para mas informacion puede visitar la siguiente <a href=" http://comunica.sena.edu.co/sigc/docus/bio/presentacion_mesa_biotecnologia.pdf"> pagina</a></p>
+                <img src="http://www.planverde.cdmx.gob.mx/images/stories/categorias/biotecnolo.jpg" alt="">
+                
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
