@@ -10,6 +10,15 @@ module.exports = {
   devServer: {
     port:5050
   },
+  module:{
+    rules: [
+        {
+           test: /\.css$/i,
+           use: ['style-loader', 'css-loader'],         
+        }
+    ]
+ },
+
   plugins: [
     new HTMLWebpackPlugin({template: './src/index.html', 
     minify:  {
