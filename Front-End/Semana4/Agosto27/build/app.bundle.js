@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log("Entrro!!!"),async function(){const o=new class{async obtenerCategorias(){const o=await window.fetch("https://eonet.sci.gsfc.nasa.gov/api/v3/categories"),s=await o.json();return console.log(s),s}},s=await o.obtenerCategorias();console.log(s.categories)}()})();

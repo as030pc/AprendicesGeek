@@ -3,7 +3,10 @@ const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 module.exports = {
-  entry: './src/app/index.js',
+  entry: ['@babel/polyfill',
+          './src/app/index.js',
+          ],
+
   mode: 'production',
   output: {
     filename: 'js/app.bundle.js',
@@ -14,6 +17,10 @@ module.exports = {
   },
   module:{
     rules: [
+          {
+            test: /\.js$/,
+            loader: 'babel-loader',
+        },
         {
            test: /\.css$/i,
            use: [MiniCssExtractPlugin.loader, 'css-loader'],         
